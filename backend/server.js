@@ -29,19 +29,6 @@ connection.once('open', () => {
 
 // app.get('/', (req, res) => res.send('Hi'))
 
-app.get('/', (req, res, next) => {
-	axios
-		.get(
-			'https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyB2u0Cpajl8SbEsVbTub-_9XOD3funQHRQ&q=cat'
-		)
-		.then(response => {
-			console.log(response)
-		})
-		.catch(error => {
-			console.log(error)
-		})
-})
-
 app.listen(port, () => {
 	console.log('Server is running')
 })
