@@ -1,7 +1,6 @@
 import React, { useState, useRef, useCallback, Fragment } from 'react'
 import { Container, Grid, makeStyles } from '@material-ui/core'
 import Alert from '@material-ui/lab/Alert'
-
 import useYoutubeApi from '../../hooks/useYoutubeApi/useYoutubeApi'
 import MainVideo from '../../components/MainVideo/MainVideo'
 import VideoBox from '../../components/VideoBox/VideoBox'

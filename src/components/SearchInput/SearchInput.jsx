@@ -127,10 +127,5 @@ const useStyles = makeStyles(theme => ({
 		[theme.breakpoints.up('sm')]: {
 			width: '50vw'
 		}
-	},
-	search: {
-		alignItems: 'center',
-		width: '60%',
-		height: '100%'
 	}
 }))
