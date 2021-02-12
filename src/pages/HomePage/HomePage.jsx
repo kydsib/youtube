@@ -9,7 +9,7 @@ import SearchInput from '../../components/SearchInput/SearchInput'
 import Spinner from '../../components/Spinner/Spinner'
 
 const HomePage = () => {
-	const [searchQuery, setSearchQuery] = useState('backend node js')
+	const [searchQuery, setSearchQuery] = useState('node js')
 	const [videoToShow, setVideoToShow] = useState('')
 	// bad name
 	const [loadResultFromPosition, setLoadResultFromPosition] = useState(1)
