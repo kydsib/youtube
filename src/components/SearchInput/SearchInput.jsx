@@ -63,14 +63,14 @@ const SearchInput = React.forwardRef(({ handleSubmit }, ref) => {
 							disabled={inputError}
 							type="submit"
 							variant="contained"
-							color="#f9f9f9"
+							color="inherit"
 						>
 							<Search />
 						</Button>
 					</InputAdornment>
 				)
 			}}
-			fullWidth="true"
+			fullWidth={true}
 		/>
 	) : (
 		<TextField
@@ -86,14 +86,14 @@ const SearchInput = React.forwardRef(({ handleSubmit }, ref) => {
 							disabled={inputError}
 							type="submit"
 							variant="contained"
-							color="#f9f9f9"
+							color="inherit"
 						>
 							<Search />
 						</Button>
 					</InputAdornment>
 				)
 			}}
-			fullWidth="true"
+			fullWidth={true}
 		/>
 	)
 

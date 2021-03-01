@@ -1,6 +1,6 @@
-Clone the repo then run:
+# Project Title
 
-### `yarn` -> `yarn start` to start project
+App uses YouTube API to load videos. Selected vidoe will be played.
 
 <details>
 <summary>Final view on big screen</summary>
@@ -10,5 +10,11 @@ Clone the repo then run:
 <details>
 <summary>Mobile input error</summary>
 <img width="563" alt="Screenshot 2021-02-12 at 10 28 33" src="https://user-images.githubusercontent.com/43815295/107745516-1b093700-6d1d-11eb-8102-502c64431f77.png">
-
 </details>
+
+## Getting Started
+
+-   git clone https://github.com/kydsib/youtube
+-   cd youtube
+-   yarn install - install needed packages
+-   yarn start - start the project

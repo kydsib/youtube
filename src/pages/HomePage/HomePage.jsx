@@ -53,7 +53,7 @@ const HomePage = () => {
 		inputElement.current.scrollIntoView({ behavior: 'smooth' })
 	}
 
-	console.log(videos)
+	
 	return (
 		<Fragment>
 			<SearchInput ref={inputElement} handleSubmit={handleSubmit} />
@@ -108,7 +108,7 @@ export default HomePage
 
 const useStyles = makeStyles(() => ({
 	root: {
-		height: '200px',
+		height: '12.5rem',
 		padding: '0.5rem 0',
 		boxSizing: 'border-box'
 	},

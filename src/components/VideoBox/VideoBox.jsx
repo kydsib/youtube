@@ -50,7 +50,7 @@ const useStyles = makeStyles(() => ({
 		padding: '0.5rem 0'
 	},
 	image: {
-		minHeight: '150px',
+		minHeight: '9.375rem',
 		width: '100%',
 		paddingRight: '0.75rem',
 		cursor: 'pointer'
