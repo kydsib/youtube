@@ -12,7 +12,7 @@ export default function useYoutubeApi(searchQuery, loadResultFromPosition) {
 	}, [searchQuery])
 
 	useEffect(() => {
-		const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY 
+		const API_KEY = 'AIzaSyCNP-pWc13DFqzVwbes8AkBGRxOmfsrgJQ' 
 
 	
 		async function getVideos() {
